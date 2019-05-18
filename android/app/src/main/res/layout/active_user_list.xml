@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:paddingBottom="@dimen/row_padding_vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/row_padding_vertical"
+    android:background="?android:attr/selectableItemBackground">
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_active_user_c_no"/>
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_toEndOf="@+id/id_active_user_c_no"
+        android:text="Block"
+        android:id="@+id/id_btn_userblock"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:textSize="11dp"
+        android:layout_toRightOf="@+id/id_active_user_c_no"
+        android:layout_marginLeft="30dp"/>
+
+</RelativeLayout>

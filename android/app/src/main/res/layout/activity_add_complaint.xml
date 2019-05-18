@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".Activity.AddComplaintActivity">
+    <EditText
+        android:id="@+id/post_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint="Enter post number"
+        android:inputType="text" />
+
+    <EditText
+        android:hint="enter your complaints..."
+        android:background="@drawable/border"
+        android:layout_marginTop="140dp"
+        android:id="@+id/idcomplaintedit_text"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:inputType="text|textMultiLine"
+        android:gravity="top"/>
+
+    <Button
+        android:id="@+id/btnsendcomplaint"
+        android:background="@color/darkblue"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idcomplaintedit_text"
+        android:layout_centerHorizontal="true"
+        android:text="send" />
+
+</RelativeLayout>

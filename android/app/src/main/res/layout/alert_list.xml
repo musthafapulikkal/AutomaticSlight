@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:paddingBottom="@dimen/row_padding_vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/row_padding_vertical"
+    android:background="?android:attr/selectableItemBackground">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/alert_post_id"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_toEndOf="@+id/alert_post_id"
+        android:layout_marginLeft="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/alert_complaint"
+        android:layout_toRightOf="@+id/alert_post_id" />
+
+</RelativeLayout>

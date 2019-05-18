@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.musthafa.automaticslight">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_slight"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.AdminHomeActivity" />
+        <activity android:name=".Activity.RegistrationActivity" />
+        <activity android:name=".Activity.AlertActivity" />
+        <activity android:name=".Activity.ComplaintsActivity" />
+        <activity android:name=".Activity.UserHomeActivity" />
+        <activity android:name=".Activity.AddComplaintActivity" />
+        <activity android:name=".Activity.ViewUsersActivity" />
+        <activity android:name=".Activity.ViewAlertActivity" />
+        <activity android:name=".Activity.ViewComplaintsActivity" />
+        <activity android:name=".Activity.AdminViewUserActivity" />
+        <activity android:name=".Activity.BlockedUsersActivity" />
+        <activity android:name=".Activity.ActiveUsersActivity"></activity>
+    </application>
+
+</manifest>
